@@ -1,0 +1,179 @@
+/*
+** create by Ming at 0621
+*/
+
+/* reset css */
+ul{
+	list-style: none;
+}
+
+/* default css */
+.pd15{
+	padding: 15px;
+}
+.text-fr{
+	float: right;
+}
+.border-top{
+	border-top: 10px solid #333;
+
+}
+
+/* normal css */
+.declare-list .declare-item,.declare-list .declare-info{
+	padding: 30px;
+	margin-bottom: 20px;
+    margin-left: -5px;
+    margin-right: -5px;
+    border: 1px solid #e4ecf3;
+    border-radius: 4px;
+    background: #fff;
+    text-align: center;
+}
+.declare-list .declare-info{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.detail-info h1{
+	font-size: 18px;
+	line-height: 24px;
+}
+.detail-info p{
+	font-size: 14px;
+	line-height: 20px;
+}
+.u-tab{
+	padding-left: -15px;
+	oading-right: -15px;
+}
+.u-tab li{
+	width: 100%;
+	border: 1px solid #333;
+	border-top: 0;
+}
+.u-tab li:first-child{
+	border-top: 1px solid #333;
+}
+.u-tab li a{
+	padding: 10px 5px;
+	display: block;
+	line-height: 20px;
+	color: #333;
+	text-decoration: none;
+	background: #fff;
+}
+.u-tab .selected a {
+	color: #fff;
+	background: #333;
+}
+
+.tab-cont label{
+
+}
+.tab-cont .int-piont{
+	opacity: 0;
+	color: #f00;
+}
+.tab-cont .required .int-piont{
+	opacity: 1;
+}
+.u-checkbox{
+	position: relative;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background: #fff;
+}
+.u-checkbox input[type=checkbox]{
+	display: none;
+}
+.u-checkbox.selected{
+	background: #cecece;
+}
+.upload-img{
+	position: relative;
+	border: 1px solid #ccc;
+	height: 210px;
+	width: 150px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.upload-img img{
+	width: 100%;
+	height: 100%;
+}
+.upload-img input{
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: none;
+	width: 100%;
+	height: 100%;
+	z-index: 99;
+}
+.upload-img .add-icon{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	line-height: 210px;
+	font-size: 40px;
+	color: #ccc;
+}
+
+
+
+
+
+/* icon */
+.icon-warning{
+	display: inline-block;
+	border: 1px solid #333;
+	border-radius: 50%;
+	width: 14px;
+	height: 14px;
+	line-height: 10px;
+	font-size: 10px;
+	vertical-align: middle;
+	color: #333;
+}
+
+
+/* popup */
+.popup{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    top:0;
+    background: rgba(116, 116, 116, 0.5);
+    z-index: 2;
+    margin: 0 auto;
+    transform: translate(-50%, 0);
+    -webkit-transform:translate(-50%, 0);
+    display: none;
+}
+.popup-content{
+    padding: 20px 100px;
+    text-align: center;
+    background: #fff;
+    line-height: 40px;
+    color:#F32E00;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform:translate(-50%, -50%);
+}
+.popup-content img{
+    vertical-align: middle;margin: -2px 5px 0 0
+}
+.popup-content span{
+    line-height: 20px;position: relative;vertical-align: middle
+}
+.loading .popup-content{
+	background: transparent;
+}

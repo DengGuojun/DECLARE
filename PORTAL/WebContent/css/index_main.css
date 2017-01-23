@@ -1,0 +1,20 @@
+.manage-bg{ overflow: hidden; background: url(../images/manage-entry-bg.jpg) no-repeat; background-size: 100% 100%/cover; }
+.manage-entry{ width: 634px; margin: 150px auto 0; }
+.manage-entry .manage-title{ text-align: center; font-size: 36px; color: #fff; line-height: 36px; }
+.manage-entry .manage-box{ border-radius: 4px; margin-top: 46px; background: #fff; padding: 50px 60px; }
+.manage-entry .manage-entry-list:after{ content: ''; height: 0; display: block; clear: both; }
+.manage-entry .manage-entry-list .entry-item{ float: left; width: 143px; margin: 0 12px; }
+.manage-entry .manage-entry-list .entry-item.line-mg{ margin-bottom: 17px; }
+.manage-entry .manage-entry-list .entry-item:nth-child(4),.manage-entry .manage-entry-list .entry-item.extra{ margin-left: 106px; }
+.manage-entry-list .entry-item .icon{ margin: 0 auto; display: block; }
+.manage-entry-list .entry-item .item-title{ padding-top: 20px; color: #000; font-size: 16px; text-align: center; line-height: 20px; }
+.manage-entry .manage-box.extra{ padding: 79px 114px; }
+.manage-entry .manage-box .entry-btn{ border-radius: 39px; width: 406px; height: 78px; background: #208F18; line-height: 78px; text-align: center; }
+.manage-entry .manage-box .entry-btn.btn-up{ margin-top: 48px; }
+.manage-entry .manage-box .entry-btn a{ display: block; font-size: 28px; color: #fff; }
+.manage-entry .manage-box .entry-link{ text-decoration: underline; color: #5987D8; font-size: 14px; line-height: 14px; margin-right: 32px; margin-top: -80px; }
+.mg-fixed{ margin-top: 20px; margin-bottom: -34px; }
+.entry-item a {
+    text-decoration: none;
+}
+

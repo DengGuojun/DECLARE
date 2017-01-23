@@ -1,0 +1,91 @@
+/* CSS Document */
+/*		登录页面		*/
+#bg{width:100%;height:auto; border-color:#e9f1f4}
+#login{width:1024px; height:640px;color:#e3f7f7; margin:0 auto;}
+#login-contents{width:526px; height:430px; background:url(../images/login_box_bg.jpg) no-repeat;  margin:auto; margin-top:200px;color:#136012;}
+.login-line1{position:absolute; top:336px; width:500px; height:36px; padding-left:17px;line-height:30px;}
+.login-line2{position:absolute; top:425px; width:460px; height:36px; text-align:center;}
+.login-line3{top:470px;}
+.login-line4{top:532px; width:200px; padding-left:161px;}
+.login-line5{top:600px; width:200px; padding-left:161px;}
+.validation img{ margin-top:0px;vertical-align:middle;}
+.login-btn{width:199px; height:35px; border-style:none; background:url(../images/login_btn.jpg) no-repeat;}
+/*		页面一		*/
+.body-index{background:#dce3e9;}
+.header{width:100%; height:50px; background:url(../images/top_bg.png) repeat-x;}
+.contents_width{width:1250px; margin:0 auto;}
+.header_top{height:50px;width:1305px;}
+.logo{width:344px; width:399px; height:49px; background:url(../images/logo.png) no-repeat;}
+.login_info{width:500px; line-height:50px; text-align:right;}
+.contents{width:1230px;background:url(../images/body_bg.png) no-repeat; margin:0 auto;}
+.nav{width:1291px; height:80px;}
+.nav .nav_item{width:70px;height:78px; margin-left:60px;}
+.nav .nav_item span{width:70px;display:block;margin-top:-20px;text-align:center; z-index:99px;}
+.nav .nav_nav{width:30px;}
+.warp{width:99%;/*height:500px;*/ border-left:1px solid #d9d9d9;border-right:1px solid #d9d9d9; background:#fff;text-align:center; }
+.warp2{width:99%;/*height:500px;*/ border-left:1px solid #d9d9d9; background:#fff;text-align:center; padding-top:3px}
+.contents-box2{width:99%; /*border-bottom:3px solid #d9d9d9;*/padding-bottom:27px;text-align:center;height:258.5px;padding-left:7px;}
+
+.contents-box{width:100%; /*border-bottom:3px solid #d9d9d9;*/background:url(../images/border2.png) repeat-x bottom;padding-bottom:27px;text-align:center;height:258.5px}
+.nav-contents-box{margin-top:19px;}
+.contents-box-header{width:100%; height:34px; background:url(../images/box_top.png) repeat-x;}
+.contents-box-header-left{padding-left:40px; padding-top:4px;}
+.contents-box-header-right{padding-top:6px; padding-right:20px;}
+.contents-box-header-right1{padding-top:1px; padding-right:20px;}
+.box-body-header{width:99%; margin:0 auto; padding-left:24px; /*border:1px solid #F00;*/ background:url(../images/border1.png) repeat-x 10px 30px;}
+.contents-box-header1{width:100%; height:29px;border:none;  border-top:5px solid #299625;}
+.contents-box-header1-left{padding-left:40px;}
+.contents-box-header1-left a{ color:#3f3f3f; font-size:14px; text-decoration:none; display:block; height:29px; line-height:29px; padding:0px 11px 0px 11px; float:left;}
+.contents-box-header1-left a.a1{font-size:18px; font-weight:bold;font-family:'微软雅黑',Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; background:#2a9626}
+
+.contents-box2-header{width:100%; height:34px; background:url(../images/box_top.png) repeat-x;}
+.contents-box2-header-left{padding-left:40px; padding-top:4px;}
+.contents-box2-header-right{padding-top:6px; padding-right:20px;}
+.contents-box2-header-right1{padding-top:1px; padding-right:20px;}
+.box-body-header{width:99%; margin:0 auto; padding-left:24px; /*border:1px solid #F00;*/ background:url(../images/border1.png) repeat-x 10px 30px;}
+.contents-box2-header1{width:100%; height:29px;border:none;  border-top:5px solid #299625;}
+.contents-box2-header1-left{padding-left:40px;}
+.contents-box2-header1-left a{ color:#3f3f3f; font-size:14px; text-decoration:none; display:block; height:29px; line-height:29px; padding:0px 11px 0px 11px; float:left;}
+.contents-box2-header1-left a.a1{font-size:18px; font-weight:bold;font-family:'微软雅黑',Arial, Helvetica, sans-serif; font-weight:normal; color:#fff; background:#2a9626}
+
+
+.box-body-header li{display:block; width:99%; }
+.box-body-header li span{display:block; font-size:14px; line-height:35px;}
+.box-body-header li span.list_left{width:99%;}
+.box-body-header li span.list_right{width:160px;}
+.box-body-header li span.list_left1{width:160px;}
+.box-body-header li span.list_left2{width:700px;}
+
+.box-body-contents{width:99%; margin:0 auto;/*border:1px solid #F00;*/}
+.box-body-contents li{display:block; width:100%; height:28px; border-bottom:1px solid #d9d9d9;}
+.box-body-contents li span{display:block; font-size:12px; line-height:24px;}
+.box-body-contents li span.list_left{width:99%;}
+.box-body-contents li span.list_right{width:160px;}
+.box-body-contents li span.list_left1{width:160px;}
+.box-body-contents li span.list_left2{width:700px;}
+.box-body-contents li span strong{font-size:18px; font-weight:bold;}
+.box-body-contents li span a{font-size:12px;text-decoration:none;}
+
+/*	详细页面	*/
+.detail_left{width:190px;  background:#f2f2f2; border-right:1px solid #c8c8c8;float:left;  height:605px;}
+.detail_left_top{width:190px; height:23px; background:url(../images/detail_1.jpg) repeat-x;}
+.detail_left_box{font-size:12px; color:#136012; line-height:20px; line-height:20px;width:174px; padding:0px 8px 0px 8px;}
+.detail_left_box a{ color:#136012;}
+.detail_box1{ height:26px; background:url(../images/detail_2.jpg) repeat-x;}
+.detail_box2{ height:41px; background:url(../images/detail_3.jpg) repeat-x;}
+.detail_box3{ height:41px; background:url(../images/detail_4.jpg) repeat-x;}
+.detail_left_box a.detail_color{color:#fff;}
+
+.detail_right{width:1098px; padding-top:5px; float:left;}
+.detail_right_title{background:url(../images/detail_5.jpg) repeat-x; padding-left:23px; height:34px; line-height:34px;}
+.detail_case{width:1060px; height:25px; padding-left:38px; padding-top:3px;}
+
+.detail_table{ padding:0px 5px 0px 5px;}
+.table{width:100%; border:1px solid #cecece; border-collapse:collapse;}
+.table tr td{border:1px  #cecece; color:#404040; height:26px; line-height:26px;}
+
+
+/*	主体尾部	*/
+.contents-footer{width:1292px; height:39px; background:url(../images/body_footer.png) no-repeat;margin-left:10px; float:left;}
+
+#page_title{background:url(../images/detail_5.jpg) repeat; padding-left:23px; height:40px; line-height:34px; font-size:25px;}

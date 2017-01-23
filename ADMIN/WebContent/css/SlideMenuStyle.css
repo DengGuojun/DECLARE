@@ -1,0 +1,86 @@
+﻿/*xml级联菜单样式*/
+.menustyle {
+	/* background-color: #FFFFFF; */
+	/* border-bottom: 1px solid #6693CF; */	
+	margin-left:30px;
+}
+.submenustyle {
+	background-color: #900;
+    width: 120px;
+    padding:0px 0px;
+    position:relative;
+    z-index:5;
+}
+.menuitem {
+	font: bold 12px Arial;
+	color: #fff;
+    cursor:pointer;
+	line-height:30px;
+    height: 29px;
+    width: 140px;
+    position:relative;
+	background:url(../images/sun_11.jpg) no-repeat 0% 50%;
+	padding:10px 0px;
+	text-align:left;
+	padding-left:40px;
+    z-index:2;
+	
+}
+.menuitemH {
+	font: bold 12px Arial;
+	color: #fff;
+    cursor:pointer;
+	line-height:30px;
+    height: 29px;
+    width: 140px;
+    position:relative;
+	background:url(../images/sun_11.jpg) no-repeat 0% 50%;
+	padding:10px 0px;
+	text-align:left;
+	padding-left:40px;
+    z-index:2;
+	
+}
+.submenuitem {
+	font: normal 12px Arial;
+	color: #000000;
+    cursor:pointer;
+    width: 120px;
+    height:38px;
+	background:url(../images/sun_10.jpg) no-repeat center left;
+	margin:5px 0px;
+	padding-left:10px;
+}
+.mouseover {	
+	font:normal 12px Arial;
+	color:#000000;	
+    cursor:pointer;
+    width: 120px;
+    height:38px;
+	background:url(../images/sun_10.jpg) no-repeat center left;
+    text-decoration: none;
+	padding-left:10px;
+	margin:5px 0px;
+}
+.highlighteditem {
+	font: bold 12px Arial;
+	cursor: default;
+	color: #fff;
+	background-color: #336699;
+}
+ .navline {
+	font-size:0px;
+}
+
+.menu {
+	position: absolute;
+	background-color: #FFFFFF;
+	top: 72px;
+	width: 140px;
+	border: 1px solid #99CCcc;
+}
+.menubg {
+	background-color: #FFFFFF;
+	border-right: 1px solid #6699cc;
+	width: 130px;
+}
